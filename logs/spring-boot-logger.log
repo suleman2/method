@@ -1,0 +1,33 @@
+2019-10-10 11:16:37,470 WARN com.payment.method.logger.LoggingController [http-nio-8080-exec-2] A WARN Message
+2019-10-10 11:16:37,480 ERROR com.payment.method.logger.LoggingController [http-nio-8080-exec-2] An ERROR Message
+2019-10-10 11:16:40,655 WARN com.payment.method.logger.LoggingController [http-nio-8080-exec-3] A WARN Message
+2019-10-10 11:16:40,660 ERROR com.payment.method.logger.LoggingController [http-nio-8080-exec-3] An ERROR Message
+2019-10-10 11:22:40,325 WARN com.payment.method.logger.LoggingController [http-nio-8080-exec-2] A WARN Message
+2019-10-10 11:22:40,332 ERROR com.payment.method.logger.LoggingController [http-nio-8080-exec-2] An ERROR Message
+2019-10-10 11:22:50,415 WARN com.payment.method.logger.LoggingController [http-nio-8080-exec-7] A WARN Message
+2019-10-10 11:22:50,422 ERROR com.payment.method.logger.LoggingController [http-nio-8080-exec-7] An ERROR Message
+2019-10-10 11:50:39,542 WARN com.payment.method.logger.LoggingController [http-nio-8080-exec-1] A WARN Message
+2019-10-10 11:50:39,552 ERROR com.payment.method.logger.LoggingController [http-nio-8080-exec-1] An ERROR Message
+2019-10-10 11:50:40,867 WARN com.payment.method.logger.LoggingController [http-nio-8080-exec-2] A WARN Message
+2019-10-10 11:50:40,872 ERROR com.payment.method.logger.LoggingController [http-nio-8080-exec-2] An ERROR Message
+2019-10-10 12:26:41,017 WARN com.payment.method.logger.LoggingController [http-nio-8080-exec-4] A WARN Message
+2019-10-10 12:26:41,027 ERROR com.payment.method.logger.LoggingController [http-nio-8080-exec-4] An ERROR Message
+2019-10-10 15:37:53,045 WARN com.payment.method.logger.LoggingController [http-nio-8080-exec-2] A WARN Message
+2019-10-10 15:37:53,052 ERROR com.payment.method.logger.LoggingController [http-nio-8080-exec-2] An ERROR Message
+2019-10-10 16:35:18,379 WARN com.payment.method.logger.LoggingController [http-nio-8888-exec-1] A WARN Message
+2019-10-10 16:35:18,386 ERROR com.payment.method.logger.LoggingController [http-nio-8888-exec-1] An ERROR Message
+2019-10-10 16:41:36,139 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7f927ac9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 16:41:44,250 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-10-10 16:41:44,267 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-10-10 16:48:32,763 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$95ae61f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 16:48:38,241 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-10-10 16:48:38,251 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-10-10 17:20:45,004 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$38df7fd4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 17:20:51,472 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-10-10 17:20:51,482 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-10-10 17:22:33,479 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2ec0077] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 17:22:38,394 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-10-10 17:22:38,404 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-10-10 17:23:18,552 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$63ac0464] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-10 17:23:23,042 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2019-10-10 17:23:23,049 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.

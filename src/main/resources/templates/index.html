@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>MUHAMMAD SULEMAN SABOOR</title>
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+
+<form action='/hello' method='POST' id='checkout-form'>
+<!--    <input type='hidden' th:value='${amount}' name='amount' />-->
+
+    <!-- NOTE: data-key/data-amount/data-currency will be rendered by Thymeleaf -->
+    <script src='https://checkout.stripe.com/checkout.js'
+            class='stripe-button'
+            th:attr='data-key=pk_test_8Z1vSrzQpUGNbKFixRLOaaf800PGkpibW2,
+         data-amount=${amount},
+         data-currency=${currency}'
+            data-name='Suleman'
+            data-description='Payment Method'
+            data-image
+                    ='http://www.baeldung.com/wp-content/themes/baeldung/favicon/android-chrome-192x192.png'
+            data-locale='auto'
+            data-zip-code='false'>
+    </script>
+</form>
+</body>
+</html>
