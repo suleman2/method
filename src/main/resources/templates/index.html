@@ -7,8 +7,12 @@
     <script src="https://js.stripe.com/v3/"></script>
 </head>
 <body>
-
-<form action='/hello' method='POST' id='checkout-form'>
+<!--
+The “Pay with Card” button and the checkout dialog
+ are included by adding a form with a script inside, correctly
+ configured with data attributes:
+-->
+<form action='/charge' method='POST' id='checkout-form'>
 <!--    <input type='hidden' th:value='${amount}' name='amount' />-->
 
     <!-- NOTE: data-key/data-amount/data-currency will be rendered by Thymeleaf -->
@@ -24,6 +28,7 @@
             data-locale='auto'
             data-zip-code='false'>
     </script>
+<!--    <button href="abc">abc</button>-->
 </form>
 </body>
 </html>

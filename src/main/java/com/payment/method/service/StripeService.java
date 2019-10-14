@@ -9,7 +9,9 @@ import org.springframework.beans.factory.annotation.Value;
 import javax.annotation.PostConstruct;
 import java.util.HashMap;
 import java.util.Map;
-
+/*
+* StripeService class to communicate the actual charge operation to Stripe
+* */
 public class StripeService
 {
     @Value("${sk_test_cPsyr0RZbX78z2STVUWLP2dZ00LFKvy2jm}")

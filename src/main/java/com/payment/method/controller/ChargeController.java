@@ -8,7 +8,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.PostMapping;
-
+/*
+*  this controller will receive the POST request made by the checkout form and submit the charge to Stripe via our StripeService
+*
+* */
 @Controller
 public class ChargeController
 {
@@ -33,3 +36,4 @@ public class ChargeController
         return "result";
     }
 }
+

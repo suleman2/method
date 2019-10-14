@@ -19,9 +19,15 @@ public class WebController
     {
         return "index";
     }
-    @PostMapping("/hello")
-    public String hello()
+    @GetMapping("/charge")
+    public String charge()
     {
-        return "hello";
+        return "charge";
     }
+    @PostMapping("/checkout")
+    public String checkout()
+    {
+        return "checkout";
+    }
+
 }

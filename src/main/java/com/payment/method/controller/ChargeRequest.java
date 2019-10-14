@@ -1,7 +1,9 @@
 package com.payment.method.controller;
 
 //import jdk.jfr.DataAmount;
-
+/*
+* the ChargeRequest POJO that we will use as a business entity during the charge operation
+* */
 public class ChargeRequest {
 
     public enum Currency {

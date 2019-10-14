@@ -5,7 +5,11 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-
+/*
+* creating a controller to prepare the model with the necessary information that the checkout form needs
+* define STRIPE_PUBLIC_KEY as an environment variable
+* set a product/sale id that could be used to fetch the actual values
+*  */
 @Controller
 public class CheckoutController
 {
